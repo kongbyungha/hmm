@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>na</title>
+        <style>
+            #back{width:10000px; height: 768px; background: url('100.png'); background-size:10000px,auto; position:absolute; bottom:0px;}
+            .ab{position:absolute; width:300px; bottom: 0px; left:600px;}
+            .bc{position:absolute; width:300px; bottom: 0px; left:900px;}
+            .cd{position:absolute; width:300px; bottom: 0px; left:1200px;}
+            .de{position:absolute; width:300px; bottom: 0px; left:1500px;}
+            .ef{position:absolute; width:300px; bottom: 0px; left:1800px;}
+            .fg{position:absolute; width:300px; bottom: 0px; left:2100px;}
+            .gh{position:absolute; width:300px; bottom: 0px; left:2400px;}
+            .hi{position:absolute; width:300px; bottom: 0px; left:2700px;}
+            .ij{position:absolute; width:300px; bottom: 0px; left:3000px;}
+            .jk{position:absolute; width:300px; bottom: 0px; left:3300px;}
+            .kl{position:absolute; width:300px; bottom: 0px; left:3600px;}
+            .lm{position:absolute; width:300px; bottom: 0px; left:3900px;}
+        </style>
+    </head>
+    <body>
+        <div id="back"></div>
+        <img src = "1.png" class="ab">
+        <img src = "2.png" class="bc">
+        <img src = "3.png" class="cd">
+        <img src = "4.png" class="de">
+        <img src = "5.png" class="ef">
+        <img src = "6.png" class="fg">
+        <img src = "7.png" class="gh">
+        <img src = "8.png" class="hi">
+        <img src = "9.png" class="ij">
+        <img src = "10.png" class="jk">
+        <img src = "11.png" class="kl">
+        <img src = "12.png" class="lm">
+        <script type="text/javascript">
+        var scrollSpeed = 100;
+        window.onwheel = function(e){
+            if(e.deltaY>0){
+                window.scrollBy(scrollSpeed,0);
+            } else { window.scrollBy(-scrollSpeed,0);}
+        }
+        </script>
+    </body>
+</html>
